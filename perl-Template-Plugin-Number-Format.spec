@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Template
-%define		pnam	Plugin-Number-Format	
+%define		pnam	Plugin-Number-Format
 Summary:	Plugin/filter interface to Number::Format
 Summary(pl):	Wtyczka - interfejs filtru do Number::Format
 Name:		perl-%{pdir}-%{pnam}
