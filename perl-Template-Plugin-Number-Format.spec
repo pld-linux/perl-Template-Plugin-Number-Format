@@ -9,7 +9,7 @@ Summary:	Plugin/filter interface to Number::Format
 Summary(pl):	Wtyczka - interfejs filtru do Number::Format
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.01
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
