@@ -6,7 +6,7 @@
 %define		pdir	Template
 %define		pnam	Plugin-Number-Format
 Summary:	Plugin/filter interface to Number::Format
-Summary(pl):	Wtyczka - interfejs filtru do Number::Format
+Summary(pl.UTF-8):   Wtyczka - interfejs filtru do Number::Format
 Name:		perl-Template-Plugin-Number-Format
 Version:	1.01
 Release:	1
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Plugin/filter interface to Number::Format.
 
-%description -l pl
+%description -l pl.UTF-8
 Wtyczka - interfejs filtru do Number::Format.
 
 %prep
