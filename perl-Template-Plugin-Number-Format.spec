@@ -8,12 +8,12 @@
 Summary:	Plugin/filter interface to Number::Format
 Summary(pl.UTF-8):	Wtyczka - interfejs filtru do Number::Format
 Name:		perl-Template-Plugin-Number-Format
-Version:	1.01
+Version:	1.02
 Release:	1
 License:	GPL v2
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Template/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0822bca562c536abc3450cebd66c83f1
+Source0:	http://search.cpan.org/CPAN/authors/id/D/DA/DARREN/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	6ccfbc9db84fc86ae64aae9973f037cf
 BuildRequires:	perl-Number-Format
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
