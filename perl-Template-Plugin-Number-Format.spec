@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Template
 %define		pnam	Plugin-Number-Format
+%include	/usr/lib/rpm/macros.perl
 Summary:	Plugin/filter interface to Number::Format
 Summary(pl.UTF-8):	Wtyczka - interfejs filtru do Number::Format
 Name:		perl-Template-Plugin-Number-Format
@@ -14,11 +14,10 @@ License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/D/DA/DARREN/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6ccfbc9db84fc86ae64aae9973f037cf
+URL:		http://search.cpan.org/dist/Template-Plugin-Number-Format/
 BuildRequires:	perl-Number-Format
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
