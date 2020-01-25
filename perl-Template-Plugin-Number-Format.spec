@@ -4,7 +4,6 @@
 
 %define		pdir	Template
 %define		pnam	Plugin-Number-Format
-%include	/usr/lib/rpm/macros.perl
 Summary:	Plugin/filter interface to Number::Format
 Summary(pl.UTF-8):	Wtyczka - interfejs filtru do Number::Format
 Name:		perl-Template-Plugin-Number-Format
